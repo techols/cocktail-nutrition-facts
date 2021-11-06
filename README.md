@@ -38,4 +38,14 @@ Le code des scrappers sont disponibles dans les fichiers suivants :
 Le code des différentes opérations SQL est disponible dans le fichier suivant
 - operations.sql
 
+### IV) Code de jointure finale (Python)
 
+Le code de la table final est disponible dans le fichier suivant :
+- operations.sql
+
+### V) Livrables
+
+Les livrables sont les suivants :
+- Slides : https://docs.google.com/presentation/d/1csSPGdTbEsvysDYmNC6bxvUHRim07cK8yvT-mGA7-4A/edit?usp=sharing
+- Datastudio : https://datastudio.google.com/u/0/reporting/f022f19e-be9c-4243-bf0c-4a39e8818793/page/0emeC
+- Base de donnnées distante BigQuery : demander l'ajout à @Marius

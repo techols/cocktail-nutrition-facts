@@ -36,6 +36,6 @@ Le code des scrappers sont disponibles dans les fichiers suivants :
 ### III) Code de transformation et jointure de données (SQL)
 
 Le code des différentes opérations SQL est disponible dans le fichier suivant
-- operation.sql
+- operations.sql
 
 

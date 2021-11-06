@@ -25,9 +25,29 @@ CREATE TABLE
     cocktail_name
   END
     AS cocktail_name,
-    * EXCEPT(cocktail_name)
-  FROM
-    cocktail_project.nutrition_facts
+    `Fat(g)` ,
+  `Carbs(g)`,
+  `Prot(g)_x`,
+  `Calories`,
+  `Net Carbs(g)`,
+  `Sugar(g)`,
+  `Fiber(g)`,
+  `Total Carbs(g)`,
+  `Trans(g)`,
+  `Mono(g)`,
+  `Poly(g)`,
+  `Sat(g)`,
+  `Total Fat(g)`,
+  `Prot(g)_y`,
+  `Sodium(mg)`,
+  `Cholesterol(mg)`,
+  `Iron`,
+  `Calcium`,
+  `Vitamin A`,
+  `Vitamin C`,
+  `Vitamin D`
+    FROM
+    `nutrition_facts`
   WHERE
     cocktail_name NOT IN ('Bourbon and Soda',
       'Scotch and Soda',
@@ -42,7 +62,7 @@ CREATE TABLE
       '1 glass Champagne',
       '1 punch cup Alcoholic Fruit Punch',
       '1 Frozen Daiquiri',
-      '1 cup Alcoholic Eggnog')
+      '1 cup Alcoholic Eggnog'))
 
 
 
@@ -75,7 +95,7 @@ CREATE TABLE
     AS cocktail_name,
     state
   FROM
-    cocktail_project.state_ranking
+    `state_ranking`
 
 
 
@@ -89,8 +109,8 @@ CREATE TABLE
     SELECT
       *
     FROM
-      cocktail_project.cocktails AS t1
+      cocktails AS t1
     INNER JOIN
-      cocktail_project.nutrition_facts_cleaned AS t2
+      nutrition_facts_cleaned AS t2
     ON
       t1.name = t2.cocktail_name)

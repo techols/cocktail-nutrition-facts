@@ -46,6 +46,7 @@ Le code de la table final est disponible dans le fichier suivant :
 ### V) Livrables
 
 Les livrables sont les suivants :
+- Trello : https://trello.com/b/LItU3Ulj/project-module-1-taler-marius
 - Slides : https://docs.google.com/presentation/d/1csSPGdTbEsvysDYmNC6bxvUHRim07cK8yvT-mGA7-4A/edit?usp=sharing
 - Datastudio : https://datastudio.google.com/u/0/reporting/f022f19e-be9c-4243-bf0c-4a39e8818793/page/0emeC
 - Base de donnnées distante BigQuery : demander l'ajout à @Marius
